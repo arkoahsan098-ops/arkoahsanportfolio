@@ -1,5 +1,5 @@
 import { Mail, Phone, Linkedin, MapPin, ChevronDown } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const Hero = () => {
   return (
@@ -81,7 +81,7 @@ const Hero = () => {
               </div>
               {/* Floating badge */}
               <div className="absolute -bottom-4 -left-4 px-6 py-3 bg-card rounded-2xl shadow-card animate-float" style={{ animationDelay: '-2s' }}>
-                <p className="text-sm font-medium">🎓 CGPA 3.26</p>
+                <p className="text-sm font-medium">🎓 BBA Student</p>
               </div>
             </div>
           </div>
