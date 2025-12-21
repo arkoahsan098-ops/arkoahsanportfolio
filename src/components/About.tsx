@@ -7,7 +7,6 @@ const About = () => {
       degree: "Bachelor of Business Administration",
       details: "Major in MIS | Minor in Marketing",
       period: "Jan 2022 – Dec 2025",
-      grade: "CGPA 3.26",
       icon: GraduationCap,
     },
     {
@@ -15,7 +14,6 @@ const About = () => {
       degree: "A Level",
       details: "Business & Accounting",
       period: "June 2021",
-      grade: "GPA 3.5/4.00",
       icon: BookOpen,
     },
     {
@@ -23,7 +21,6 @@ const About = () => {
       degree: "O Level",
       details: "5 Subjects",
       period: "Jan-Nov 2020",
-      grade: "GPA 3.0/4.00",
       icon: Award,
     },
   ];
@@ -70,9 +67,6 @@ const About = () => {
                           <h3 className="text-xl font-heading font-semibold">{edu.institution}</h3>
                           <p className="text-foreground font-medium">{edu.degree}</p>
                           <p className="text-muted-foreground text-sm">{edu.details}</p>
-                          <span className="inline-block px-3 py-1 rounded-full bg-accent/10 text-accent text-sm font-medium">
-                            {edu.grade}
-                          </span>
                         </div>
                       </div>
                     </div>
