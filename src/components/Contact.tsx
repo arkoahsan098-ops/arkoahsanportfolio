@@ -84,7 +84,9 @@ const Contact = () => {
           {/* CTA */}
           <div className="text-center animate-fade-up" style={{ animationDelay: '0.4s' }}>
             <a
-              href="mailto:Arko.ahsan098@gmail.com"
+              href="https://wa.me/8801724347026"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-primary text-primary-foreground rounded-full font-medium shadow-glow hover:scale-105 transition-transform duration-300"
             >
               <Send className="w-5 h-5" />
