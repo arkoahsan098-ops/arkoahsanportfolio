@@ -1,14 +1,22 @@
-import { Users, Calendar, Megaphone, Shield } from "lucide-react";
+import { Calendar, Megaphone, Shield, Palette } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
+    {
+      title: "Marketing & Design Contributor",
+      organization: "Make Yours (Clothing Brand)",
+      period: "Present",
+      description: "Designed social media creatives, promotional visuals, and campaign content to boost brand awareness. Supported marketing campaigns with visual content aligned to brand strategy.",
+      icon: Palette,
+      color: "primary",
+    },
     {
       title: "Campus Ambassador",
       organization: "Mind Leap, YouthBees, H & I Council",
       period: "Spring 2023 - Summer 2025",
       description: "Organized on-campus events, encouraged participation in skill-building courses, and assisted students interested in studying abroad.",
       icon: Megaphone,
-      color: "primary",
+      color: "secondary",
     },
     {
       title: "Volunteer - Guest & Security Management",
@@ -16,7 +24,7 @@ const Experience = () => {
       period: "October 2023",
       description: "Ensured smooth operations for 100+ attendees, resolving conflicts and maintaining safety protocols.",
       icon: Shield,
-      color: "secondary",
+      color: "accent",
     },
     {
       title: "Event Coordinator",
@@ -24,7 +32,7 @@ const Experience = () => {
       period: "January 2023",
       description: "Collaborated with 3 event heads to streamline schedules, vendor setups, and participant registrations. Addressed 5+ last-minute changes to ensure on-time delivery.",
       icon: Calendar,
-      color: "accent",
+      color: "primary",
     },
   ];
 
