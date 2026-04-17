@@ -1,14 +1,22 @@
-import { Calendar, Megaphone, Shield, Palette } from "lucide-react";
+import { Calendar, Megaphone, Shield, Palette, Briefcase } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
+    {
+      title: "Digital Marketing & Marketing Intern",
+      organization: "Azizur Rahman & Associates Chartered Secretaries (ARA)",
+      period: "December 2025 – April 2026",
+      description: "Social Media Manager (Facebook, Instagram, X), News Portal Admin (B24 News), and YouTube channel manager. Designed social media posts and promotional content.",
+      icon: Briefcase,
+      color: "primary",
+    },
     {
       title: "Marketing & Design Contributor",
       organization: "Make Yours (Clothing Brand)",
       period: "Present",
       description: "Designed social media creatives, promotional visuals, and campaign content to boost brand awareness. Supported marketing campaigns with visual content aligned to brand strategy.",
       icon: Palette,
-      color: "primary",
+      color: "secondary",
     },
     {
       title: "Campus Ambassador",
