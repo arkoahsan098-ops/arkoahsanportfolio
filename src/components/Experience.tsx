@@ -1,5 +1,5 @@
 import { Calendar, Megaphone, Shield, Palette, Briefcase } from "lucide-react";
-import araLogo from "@/assets/ara-logo.jpg";
+import araLogo from "@/assets/ara-logo.png";
 
 const Experience = () => {
   const experiences = [
