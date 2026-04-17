@@ -72,9 +72,15 @@ const Experience = () => {
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="h-full bg-gradient-card p-8 rounded-3xl shadow-soft hover:shadow-card transition-all duration-500 hover:-translate-y-2 border border-border/50">
-                <div className={`w-14 h-14 rounded-2xl bg-${exp.color}/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
-                  <exp.icon className={`w-7 h-7 text-${exp.color}`} />
-                </div>
+                {exp.logo ? (
+                  <div className="w-14 h-14 rounded-2xl bg-card flex items-center justify-center mb-6 overflow-hidden shadow-soft group-hover:scale-110 transition-transform">
+                    <img src={exp.logo} alt={`${exp.organization} logo`} className="w-full h-full object-cover" />
+                  </div>
+                ) : (
+                  <div className={`w-14 h-14 rounded-2xl bg-${exp.color}/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+                    <exp.icon className={`w-7 h-7 text-${exp.color}`} />
+                  </div>
+                )}
                 
                 <span className="text-sm text-muted-foreground font-medium">{exp.period}</span>
                 <h3 className="text-xl font-heading font-semibold mt-2 mb-1">{exp.title}</h3>
