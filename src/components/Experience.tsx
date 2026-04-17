@@ -73,8 +73,8 @@ const Experience = () => {
             >
               <div className="h-full bg-gradient-card p-8 rounded-3xl shadow-soft hover:shadow-card transition-all duration-500 hover:-translate-y-2 border border-border/50">
                 {exp.logo ? (
-                  <div className="w-14 h-14 rounded-2xl bg-card flex items-center justify-center mb-6 overflow-hidden shadow-soft group-hover:scale-110 transition-transform">
-                    <img src={exp.logo} alt={`${exp.organization} logo`} className="w-full h-full object-cover" />
+                  <div className="w-14 h-14 rounded-2xl bg-card flex items-center justify-center mb-6 overflow-hidden shadow-soft p-1.5 group-hover:scale-110 transition-transform">
+                    <img src={exp.logo} alt={`${exp.organization} logo`} className="w-full h-full object-contain" />
                   </div>
                 ) : (
                   <div className={`w-14 h-14 rounded-2xl bg-${exp.color}/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
