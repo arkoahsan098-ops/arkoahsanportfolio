@@ -1,4 +1,5 @@
 import { Calendar, Megaphone, Shield, Palette, Briefcase } from "lucide-react";
+import araLogo from "@/assets/ara-logo.jpg";
 
 const Experience = () => {
   const experiences = [
@@ -9,6 +10,7 @@ const Experience = () => {
       description: "Social Media Manager (Facebook, Instagram, X), News Portal Admin (B24 News), and YouTube channel manager. Designed social media posts and promotional content.",
       icon: Briefcase,
       color: "primary",
+      logo: araLogo,
     },
     {
       title: "Marketing & Design Contributor",
